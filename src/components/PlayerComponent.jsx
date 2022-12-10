@@ -4,7 +4,7 @@ import { Row, Col, Container, Form, Button, Alert } from "react-bootstrap";
 import '../video-react.css';
 
 function PlayerComponent() {
-  const [urlLink, setUrlLink] = useState("/video/singapore.mp4");
+  const [urlLink, setUrlLink] = useState("https://kaizer911.github.io/react_video_render/video/singapore.mp4");
   const [urlLinkTemp, setUrlLinkTemp] = useState("")
 
   function onChange(e) {
@@ -17,7 +17,7 @@ function PlayerComponent() {
   };
 
   const handleOriginalUrl = () => {
-    setUrlLink("/video/singapore.mp4")
+    setUrlLink("https://kaizer911.github.io/react_video_render/video/singapore.mp4")
   };
 
   return (
@@ -26,7 +26,7 @@ function PlayerComponent() {
         <Row className="mt-2 justify-content-md-center text-center">
           <Col md={8}>
             <h3><strong>3 Degress App - Video Rendering</strong></h3>
-            {urlLink && urlLink !== "/video/singapore.mp4" ?
+            {urlLink && urlLink !== "https://kaizer911.github.io/react_video_render/video/singapore.mp4" ?
               <h5>{ urlLink }</h5>
             :
               !urlLink ? <Alert variant="info">Url Link is empty</Alert> : ""
