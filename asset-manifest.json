@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/react_video_render/static/css/main.163c12c5.css",
+    "main.js": "/react_video_render/static/js/main.54426e76.js",
+    "static/js/787.36efe580.chunk.js": "/react_video_render/static/js/787.36efe580.chunk.js",
+    "index.html": "/react_video_render/index.html",
+    "main.163c12c5.css.map": "/react_video_render/static/css/main.163c12c5.css.map",
+    "main.54426e76.js.map": "/react_video_render/static/js/main.54426e76.js.map",
+    "787.36efe580.chunk.js.map": "/react_video_render/static/js/787.36efe580.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.163c12c5.css",
+    "static/js/main.54426e76.js"
+  ]
+}
